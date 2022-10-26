@@ -12,7 +12,7 @@ public class TestServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
 
-        req.getRequestDispatcher("threepage.jsp").forward(req, resp);
+        req.getRequestDispatcher("mypage.jsp").forward(req, resp);
 
     }
 }

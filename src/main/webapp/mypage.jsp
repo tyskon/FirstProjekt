@@ -32,8 +32,8 @@
 
 
 
-<button class="button">Employee</button>
-<button class="button">Project</button>
-<button class="button">Task</button>
+<button class="button">Сотрудники</button>
+<button class="button">Проекты</button>
+<button class="button">Задачи</button>
 </body>
 </html>
