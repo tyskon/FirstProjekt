@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"%>
 
 <!DOCTYPE html>
 <html>
@@ -30,64 +29,79 @@
 </style>
 </head>
 <body>
+<button class="button">Проекты</button>
+<button class="button">Задачи</button>
+<button class="button">Сотрудники</button>
 
 <table id="customers">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Фамилия</th>
+    <th>Имя</th>
+    <th>Отчество</th>
+    <th>Должность</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Фамилия 1</td>
+    <td>Имя 1</td>
+    <td>Отчество 1</td>
+    <td>Должность 1</td>
   </tr>
   <tr>
-    <td>Berglunds snabbköp</td>
-    <td>Christina Berglund</td>
-    <td>Sweden</td>
+      <td>Фамилия 2</td>
+      <td>Имя 2</td>
+      <td>Отчество 2</td>
+      <td>Должность 2</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+      <td>Фамилия 3</td>
+      <td>Имя 3</td>
+      <td>Отчество 3</td>
+      <td>Должность 3</td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
+      <td>Фамилия 4</td>
+      <td>Имя 4</td>
+      <td>Отчество 4</td>
+      <td>Должность 4</td>
   </tr>
   <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
+      <td>Фамилия 5</td>
+      <td>Имя 5</td>
+      <td>Отчество 5</td>
+      <td>Должность 5</td>
   </tr>
   <tr>
-    <td>Königlich Essen</td>
-    <td>Philip Cramer</td>
-    <td>Germany</td>
+      <td>Фамилия 6</td>
+      <td>Имя 6</td>
+      <td>Отчество 6</td>
+      <td>Должность 6</td>
   </tr>
   <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
+      <td>Фамилия 7</td>
+      <td>Имя 7</td>
+      <td>Отчество 7</td>
+      <td>Должность 7</td>
   </tr>
   <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
+      <td>Фамилия 8</td>
+      <td>Имя 8</td>
+      <td>Отчество 8</td>
+      <td>Должность 8</td>
   </tr>
   <tr>
-    <td>North/South</td>
-    <td>Simon Crowther</td>
-    <td>UK</td>
+      <td>Фамилия 9</td>
+      <td>Имя 9</td>
+      <td>Отчество 9</td>
+      <td>Должность 9</td>
   </tr>
   <tr>
-    <td>Paris spécialités</td>
-    <td>Marie Bertrand</td>
-    <td>France</td>
+      <td>Фамилия 10</td>
+      <td>Имя 10</td>
+      <td>Отчество 10</td>
+      <td>Должность 10</td>
   </tr>
 </table>
 
 </body>
 </html>
+

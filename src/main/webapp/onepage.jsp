@@ -1,56 +1,91 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
 <style>
-table {
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-th, td {
+#customers td, #customers th {
+    border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
 }
 
-tr:hover {background-color:#f5f5f5;}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
 </style>
 </head>
 <body>
+<button class="button">Проекты</button>
+<button class="button">Задачи</button>
+<button class="button">Сотрудники</button>
 
-<h2>Hoverable Table</h2>
-<p>Move the mouse over the table rows to see the effect.</p>
+<table id="customers">
+  <tr>
+    <th>Наименование</th>
+    <th>Описание</th>
+  </tr>
+  <tr>
+    <td>Проект №1</td>
+    <td>Описание пректа №1</td>
+  </tr>
+  <tr>
+    <td>Проект №2</td>
+    <td>Описание проекта №2</td>
+  </tr>
+  <tr>
+    <td>Проект №3</td>
+    <td>Описание пректа №3</td>
+  </tr>
+  <tr>
+    <td>Проект №4</td>
+    <td>Описание пректа №4</td>
 
-<table>
-  <tr>
-    <th>First Name</th>
-    <th>Last Name</th>
-    <th>Points</th>
   </tr>
   <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-    <td>$100</td>
+    <td>Проект №5</td>
+    <td>Описание проекта №5</td>
+
   </tr>
   <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-    <td>$150</td>
+    <td>Проект №6</td>
+    <td>Описание пректа №6</td>
+
   </tr>
   <tr>
-    <td>Joe</td>
-    <td>Swanson</td>
-    <td>$300</td>
+    <td>Проект №7</td>
+    <td>Описание пректа 7</td>
+
   </tr>
   <tr>
-    <td>Cleveland</td>
-    <td>Brown</td>
-    <td>$250</td>
+    <td>Проект №8</td>
+    <td>Описание проекта №8</td>
+
+  </tr>
+  <tr>
+    <td>Проект №9</td>
+    <td>Описание проекта №9</td>
+
+  </tr>
+  <tr>
+    <td>Проект №10</td>
+    <td>Описание проекта №10</td>
+
   </tr>
 </table>
 
 </body>
 </html>
-
