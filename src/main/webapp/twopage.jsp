@@ -92,6 +92,8 @@ li a.active {
     <td>Дата начала 1</td>
     <td>Дата окончания 1</td>
     <td>Исполнитель 1</td>
+    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
      <td>Статус 2</td>
@@ -101,6 +103,8 @@ li a.active {
      <td>Дата начала 2</td>
      <td>Дата окончания 2</td>
      <td>Исполнитель 2</td>
+     <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Статус 3</td>
@@ -110,6 +114,8 @@ li a.active {
     <td>Дата начала 3</td>
     <td>Дата окончания 3</td>
     <td>Исполнитель 3</td>
+    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Статус 4</td>
@@ -119,6 +125,8 @@ li a.active {
     <td>Дата начала 4</td>
     <td>Дата окончания 4</td>
     <td>Исполнитель 4</td>
+    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Статус 5</td>
@@ -128,6 +136,8 @@ li a.active {
     <td>Дата начала 5</td>
     <td>Дата окончания 5</td>
     <td>Исполнитель 5</td>
+    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
       <td>Статус 6</td>
@@ -137,6 +147,8 @@ li a.active {
       <td>Дата начала 6</td>
       <td>Дата окончания 6</td>
       <td>Исполнитель 6</td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
   <tr>
       <td>Статус 7</td>
@@ -146,6 +158,8 @@ li a.active {
       <td>Дата начала 7</td>
       <td>Дата окончания 7</td>
       <td>Исполнитель 7</td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
   <tr>
       <td>Статус 8</td>
@@ -155,6 +169,8 @@ li a.active {
       <td>Дата начала 8</td>
       <td>Дата окончания 8</td>
       <td>Исполнитель 8</td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
   <tr>
       <td>Статус 9</td>
@@ -164,6 +180,8 @@ li a.active {
       <td>Дата начала 9</td>
       <td>Дата окончания 9</td>
       <td>Исполнитель 9</td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
   <tr>
       <td>Статус 10</td>
@@ -173,6 +191,11 @@ li a.active {
       <td>Дата начала 10</td>
       <td>Дата окончания 10</td>
       <td>Исполнитель 10</td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
+    </tr>
+    <tr>
+        <td><a href="#" onclick="edit($(this).closest('tr'))">Добавить</a></td>
     </tr>
 </table>
 
