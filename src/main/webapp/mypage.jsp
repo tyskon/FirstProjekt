@@ -3,34 +3,48 @@
 <html>
 <head>
 <style>
-.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
-.button:hover {background-color: #3e8e41}
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
 }
 </style>
 </head>
 <body>
 
-
-<button class="button">Пректы</button>
-<button class="button">Задачи</button>
-<button class="button">Сотрудники</button>
+<ul>
+  <li><a class="active" href="mypage.jsp">Home</a></li>
+  <li><a href="onepage.jsp">Проекты</a></li>
+  <li><a href="twopage.jsp">Задачи</a></li>
+  <li><a href="threepage.jsp">Сотрудники</a></li>
+</ul>
 
 </body>
 </html>
+
+
+
