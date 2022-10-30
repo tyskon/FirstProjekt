@@ -140,7 +140,7 @@ li a.active {
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">Добавить</a></td>
+    <td><a href="InformationProject.jsp" onclick="edit($(this).closest('tr'))">Добавить</a></td>
   </tr>
 </table>
 
