@@ -94,7 +94,7 @@ li a.active {
     <td>Дата начала 1</td>
     <td>Дата окончания 1</td>
     <td>Исполнитель 1</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -105,7 +105,7 @@ li a.active {
      <td>Дата начала 2</td>
      <td>Дата окончания 2</td>
      <td>Исполнитель 2</td>
-     <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+     <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
      <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -116,7 +116,7 @@ li a.active {
     <td>Дата начала 3</td>
     <td>Дата окончания 3</td>
     <td>Исполнитель 3</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -127,7 +127,7 @@ li a.active {
     <td>Дата начала 4</td>
     <td>Дата окончания 4</td>
     <td>Исполнитель 4</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -138,7 +138,7 @@ li a.active {
     <td>Дата начала 5</td>
     <td>Дата окончания 5</td>
     <td>Исполнитель 5</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -149,7 +149,7 @@ li a.active {
       <td>Дата начала 6</td>
       <td>Дата окончания 6</td>
       <td>Исполнитель 6</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
   <tr>
@@ -160,7 +160,7 @@ li a.active {
       <td>Дата начала 7</td>
       <td>Дата окончания 7</td>
       <td>Исполнитель 7</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
   <tr>
@@ -171,7 +171,7 @@ li a.active {
       <td>Дата начала 8</td>
       <td>Дата окончания 8</td>
       <td>Исполнитель 8</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
   <tr>
@@ -182,7 +182,7 @@ li a.active {
       <td>Дата начала 9</td>
       <td>Дата окончания 9</td>
       <td>Исполнитель 9</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
   <tr>
@@ -193,7 +193,7 @@ li a.active {
       <td>Дата начала 10</td>
       <td>Дата окончания 10</td>
       <td>Исполнитель 10</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationTask.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
     </tr>
     <tr>

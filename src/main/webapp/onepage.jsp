@@ -84,61 +84,61 @@ li a.active {
   <tr>
     <td>Проект №1</td>
     <td>Описание пректа №1</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №2</td>
     <td>Описание проекта №2</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №3</td>
     <td>Описание пректа №3</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №4</td>
     <td>Описание пректа №4</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №5</td>
     <td>Описание проекта №5</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №6</td>
     <td>Описание пректа №6</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №7</td>
     <td>Описание пректа 7</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №8</td>
     <td>Описание проекта №8</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №9</td>
     <td>Описание проекта №9</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
     <td>Проект №10</td>
     <td>Описание проекта №10</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformInformationProject.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>

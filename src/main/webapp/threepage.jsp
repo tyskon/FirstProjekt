@@ -88,7 +88,7 @@ li a.active {
     <td>Имя 1</td>
     <td>Отчество 1</td>
     <td>Должность 1</td>
-    <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+    <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -96,7 +96,7 @@ li a.active {
       <td>Имя 2</td>
       <td>Отчество 2</td>
       <td>Должность 2</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -104,7 +104,7 @@ li a.active {
       <td>Имя 3</td>
       <td>Отчество 3</td>
       <td>Должность 3</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -112,7 +112,7 @@ li a.active {
       <td>Имя 4</td>
       <td>Отчество 4</td>
       <td>Должность 4</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -120,7 +120,7 @@ li a.active {
       <td>Имя 5</td>
       <td>Отчество 5</td>
       <td>Должность 5</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -128,7 +128,7 @@ li a.active {
       <td>Имя 6</td>
       <td>Отчество 6</td>
       <td>Должность 6</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -136,7 +136,7 @@ li a.active {
       <td>Имя 7</td>
       <td>Отчество 7</td>
       <td>Должность 7</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -144,7 +144,7 @@ li a.active {
       <td>Имя 8</td>
       <td>Отчество 8</td>
       <td>Должность 8</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -152,7 +152,7 @@ li a.active {
       <td>Имя 9</td>
       <td>Отчество 9</td>
       <td>Должность 9</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
@@ -160,7 +160,7 @@ li a.active {
       <td>Имя 10</td>
       <td>Отчество 10</td>
       <td>Должность 10</td>
-      <td><a href="#" onclick="edit($(this).closest('tr'))">изм</a></td>
+      <td><a href="TransformationInformationEmployee.jsp" onclick="edit($(this).closest('tr'))">изм</a></td>
       <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
