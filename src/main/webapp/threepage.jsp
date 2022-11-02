@@ -80,6 +80,8 @@ li a.active {
     <th>Имя</th>
     <th>Отчество</th>
     <th>Должность</th>
+    <th></th>
+    <th></th>
   </tr>
   <tr>
     <td>Фамилия 1</td>

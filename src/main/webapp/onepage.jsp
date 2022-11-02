@@ -78,6 +78,8 @@ li a.active {
   <tr>
     <th>Наименование</th>
     <th>Описание</th>
+    <th></th>
+    <th></th>
   </tr>
   <tr>
     <td>Проект №1</td>
