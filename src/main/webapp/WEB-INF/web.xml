@@ -12,24 +12,65 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>add</servlet-name>
+        <servlet-name>addEmployee</servlet-name>
         <servlet-class>servlets.AddEmployeeServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>add</servlet-name>
+        <servlet-name>addEmployee</servlet-name>
         <url-pattern>/InformationEmployee</url-pattern>
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>list</servlet-name>
+        <servlet-name>addProject</servlet-name>
+        <servlet-class>servlets.AddProjectServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addProject</servlet-name>
+        <url-pattern>/InformationProject</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addTask</servlet-name>
+        <servlet-class>servlets.AddTaskServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addTask</servlet-name>
+        <url-pattern>/InformationTask</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>listEmployee</servlet-name>
         <servlet-class>servlets.ListEmployeeServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>list</servlet-name>
+        <servlet-name>listEmployee</servlet-name>
         <url-pattern>/threepage</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>listProject</servlet-name>
+        <servlet-class>servlets.ListProjectServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>listProject</servlet-name>
+        <url-pattern>/onepage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>listTask</servlet-name>
+        <servlet-class>servlets.ListTaskServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>listTask</servlet-name>
+        <url-pattern>/twopage</url-pattern>
+    </servlet-mapping>
+
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
