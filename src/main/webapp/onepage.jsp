@@ -142,7 +142,7 @@ li a.active {
     <td><a href="#" onclick="edit($(this).closest('tr'))">уд</a></td>
   </tr>
   <tr>
-    <td><a href="InformationProject.jsp" onclick="edit($(this).closest('tr'))">Добавить</a></td>
+<td><button onclick="location.href='/addProject'">Добавить<//button><td/>
   </tr>
 </table>
 
