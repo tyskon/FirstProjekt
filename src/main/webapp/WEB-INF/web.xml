@@ -8,7 +8,7 @@
 
     <servlet-mapping>
         <servlet-name>mainServlet</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/mypage</url-pattern>
     </servlet-mapping>
 
     <servlet>
