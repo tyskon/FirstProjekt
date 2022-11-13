@@ -1,5 +1,8 @@
 package servlets;
 
+import entities.Project;
+import model.ModelProject;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -16,7 +19,20 @@ public class AddProjectServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        req.getRequestDispatcher("InformationServlet.jsp").forward(req, resp);
 
+
+       req.getRequestDispatcher("InformationServlet.jsp").forward(req, resp);
+
+    }
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String designation = req.getParameter("designation");
+        String definition = req.getParameter("definition");
+        Project project = new Project(designation, definition);
+        ModelProject modelProject = ModelProject.getInstance();
+        modelProject.add(project);
+
+        req.setAttribute("projectName", designation);
+        doGet(req, resp);
     }
 }

@@ -58,7 +58,7 @@
 
     <servlet-mapping>
         <servlet-name>listProject</servlet-name>
-        <url-pattern>/onepage</url-pattern>
+        <url-pattern>/webapp/test</url-pattern>
     </servlet-mapping>
 
     <servlet>

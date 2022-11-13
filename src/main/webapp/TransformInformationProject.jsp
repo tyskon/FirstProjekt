@@ -46,8 +46,7 @@ li a.active {
 </body>
 
 <body>
-<form class="guruweba_example_form" name="feedback" method="POST" action="/onepage.jsp">
-  <div class="guruweba_example_infofield">Форма заполнения</div>
+  <form method="GET" action="TransformationProject">
   <div>Наименование</div>
   <input type="text" name="title" required="required">
   <div>Описание</div>

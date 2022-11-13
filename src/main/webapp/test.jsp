@@ -73,7 +73,17 @@ li a.active {
 </style>
 </head>
 <body>
+<ul>
+    <%
+        List<String> projects = (List<String>) request.getAttribute("projectNames");
 
+        if (projects != null && !projects.isEmpty()) {
+            for (String s : projects) {
+                out.println("<li>" + s + "</li>");
+            }
+        }
+    %>
+</ul>
 <table id="customers">
   <tr>
     <th>Наименование</th>
