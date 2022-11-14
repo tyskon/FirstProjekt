@@ -32,7 +32,8 @@ public class AddProjectServlet extends HttpServlet{
         ModelProject modelProject = ModelProject.getInstance();
         modelProject.add(project);
 
-        req.setAttribute("projectName", designation);
+        req.setAttribute("designation", designation);
+        req.setAttribute("definition", definition);
         doGet(req, resp);
     }
 }

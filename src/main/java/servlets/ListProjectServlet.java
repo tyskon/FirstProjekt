@@ -17,9 +17,9 @@ public class ListProjectServlet extends HttpServlet{
             throws ServletException, IOException {
         ModelProject modelProject = ModelProject.getInstance();
         List<String> projects = modelProject.list();
-        req.setAttribute("projectNames", projects);
-
-       req.getRequestDispatcher("webapp/test.jsp").forward(req, resp);
+        req.setAttribute("destination", projects);
+        req.setAttribute("definition", projects);
+       req.getRequestDispatcher("/onepage.jsp").forward(req, resp);
 
     }
 
